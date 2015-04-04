@@ -15,6 +15,8 @@ module.exports = function(environment) {
     contentSecurityPolicy: {
         'connect-src': "*",
 		'script-src': "'self' 'unsafe-inline' 'unsafe-eval'",
+		'style-src': "'self' 'unsafe-inline'",
+		'img-src': "'self' https://avatars.githubusercontent.com",
     },      
 
     APP: {
