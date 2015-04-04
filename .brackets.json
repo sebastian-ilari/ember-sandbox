@@ -1,5 +1,8 @@
 {
     "spaceUnits": 4,
     "useTabChar": false,
-    "smartIndent": true
+    "smartIndent": true,
+    "jscodehints.detectedExclusions": [
+        "/Users/OpenMinder/dev-labs/ember/sandbox/bower_components/jquery/src/exports/amd.js"
+    ]
 }

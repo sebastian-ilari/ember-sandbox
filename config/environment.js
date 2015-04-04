@@ -12,6 +12,10 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    contentSecurityPolicy: {
+        'connect-src': "*",
+		'script-src': "'self' 'unsafe-inline' 'unsafe-eval'",
+    },      
 
     APP: {
       // Here you can pass flags/options to your application instance

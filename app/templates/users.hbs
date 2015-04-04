@@ -1,0 +1,9 @@
+<h4>Users list</h4>
+<br>
+<ul>
+    {{#each user in model}}
+    <li>{{#link-to 'user' user}}{{user.login}}{{/link-to}}</li>
+    {{/each}}
+</ul>
+<br>
+<a href="index">Back</a>
