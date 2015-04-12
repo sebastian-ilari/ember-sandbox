@@ -1,0 +1,10 @@
+<h4>Posts</h4>
+<br>
+<section>  
+    {{#each post in arrangedContent}}
+        <div>{{post.title}}</div>
+        <div>{{post.body}}</div>
+    {{/each}}
+</section>
+<br>
+{{#link-to 'post'}}Create a post{{/link-to}}

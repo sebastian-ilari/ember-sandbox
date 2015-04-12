@@ -1,0 +1,9 @@
+<h4>New Post</h4>
+<br>
+{{input value=post.title placeholder="Title"}}
+<br>
+{{textarea value=post.body placeholder="Body"}}
+<br>
+<br>
+<button {{action 'cancel'}}>Cancel</button>
+<button {{action 'publishPost'}}>Publish</button>
