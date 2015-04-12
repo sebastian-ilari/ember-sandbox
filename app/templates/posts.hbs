@@ -1,10 +1,12 @@
 <h4>Posts</h4>
 <br>
-<section>  
+<section>
     {{#each post in arrangedContent}}
         <div>{{post.title}}</div>
         <div>{{post.body}}</div>
     {{/each}}
 </section>
 <br>
-{{#link-to 'post'}}Create a post{{/link-to}}
+Total posts = {{arrangedContent.length}}
+<br><br>
+{{link-to 'Create a post' 'post'}}
